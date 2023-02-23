@@ -9,7 +9,7 @@ public class WorkerTool implements Worker{
     }
 
     @Override
-    public void draw(Graphics g, List values) {
+    public void draw(Graphics g, List<Integer> values) {
         worker.draw(g, values);
     }
 }
