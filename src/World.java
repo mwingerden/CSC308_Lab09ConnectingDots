@@ -45,7 +45,7 @@ public class World extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         World world = new World();
-        world.setSize(500,500);
+        world.setSize(500,1000);
         world.setVisible(true);
         world.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }

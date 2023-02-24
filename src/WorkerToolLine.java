@@ -12,7 +12,7 @@ public class WorkerToolLine extends WorkerTool{
                     (500/ MAX_NUMBER_OF_VALUES *i )  - (BAR_WIDTH/2),
                     (int)values.get(i),
                     BAR_WIDTH,
-                    200 - (int) values.get(i)
+                    250 - (int) values.get(i)
             );
         }
         super.draw(g,values);
